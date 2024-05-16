@@ -1,0 +1,38 @@
+*{ 
+font-family: "Sedan SC", sans-serif;
+box-sizing: border box;
+margin: 0;
+padding= 0; 
+}
+
+
+#inicio{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+}
+
+
+.paragrafo{ 
+     line-height: 150%;
+     margin: 32px;
+}
+
+.botao-transparente{ 
+     background-color: transparent;
+     color: darkslategray; 
+     padding: 16px 32px;
+     text-underline-offset: 4px;
+}
+
+.botao{ 
+     background-color: darkgreen;
+     border-radius: 8px;
+     padding: 16px 32px;
+}
+
+.absolute{
+
+    
+}
