@@ -2,7 +2,7 @@
 font-family: "Sedan SC", sans-serif;
 box-sizing: border box;
 margin: 0;
-padding= 0; 
+padding: 0; 
 }
 
 
@@ -33,6 +33,110 @@ padding= 0;
 }
 
 .absolute{
-
+  position: absolute;
+  width: 100px;
+  bottom: 0;
+  left: 0;
+  z-index: -10;
     
+} 
+ header nav a{  
+   color:aliceblue;
+   font-weight: 600px; 
+   padding: 32px;
+   text-decoration: none;
+ }
+header{
+     background-color: hotpink; 
+     display: flex;
+     justify-content: space-between;
+     padding-left: 80px;
+     padding-right:80px;
+     padding-top:24px;
+     padding-bottom:24px;
 }
+
+h1, h2{ 
+ font-weight: 600px; font-size: 32px; margin-bottom: 32px;
+}
+
+#clinica li{
+     display: flex;
+     align-items: center;
+     gap: 64px;
+     padding: 64px 80px;
+}
+ 
+#clinica li{ 
+     margin-bottom: 16px;
+     margin-left: 32px; 
+
+}
+#farmacia{
+     padding: 64px 80px;
+     text-align: center;
+}
+ #farmnacia img{
+margin: 64px auto;
+ }
+
+ #farmacia .paragrafo{ 
+max-width: 950px; 
+margin:0 auto; 
+ } 
+
+ #duvidas{ 
+     display: flex;
+     align-items: center;
+     gap: 64px;
+     padding: 64px 80px;
+ }
+ .duvida{ 
+     position: relative;
+ }
+
+ .duvida h3{ 
+     border: 2 px solid #ff725e;
+     border-radius: 8px;
+     cursor: pointer;
+     padding: 24px;
+
+ }
+ #duvida img{
+     position: absolute;
+     top: 32px;
+     right: 24px;
+
+ }
+
+ .duvida .paragrafo{
+     border-right: 1px solid #ff725e; 
+     border-bottom: 1px solid #ff725e;
+     border-left: 1px solid #ff725e; 
+     border-radius: 0 0 8PX 8PX;
+     margin-top: -8PX; 
+     padding: 24PX;
+
+ } 
+ footer{
+     background-color: peru;
+     display: flex;
+     justify-content: space-between;
+     gap: 80px;
+     padding: 64px 80px;
+
+ } 
+
+ footer img
+     footer .titulo{ 
+    display:block;
+    font-weight: 600;
+    margin-bottom: 24px;  
+     }
+ 
+     footer nav a{ 
+          color: black;
+          display: block;
+          margin-bottom: 16px;
+          text-decoration: none; 
+     }
